@@ -1,0 +1,29 @@
+{
+  "name": "api-licitacoes",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx nodemon src/server.js",
+    "start": "node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VitorIMuller/api-licitacoesGuabiruba.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VitorIMuller/api-licitacoesGuabiruba/issues"
+  },
+  "homepage": "https://github.com/VitorIMuller/api-licitacoesGuabiruba#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-async-errors": "^3.1.1",
+    "nodemon": "^2.0.19"
+  }
+}
