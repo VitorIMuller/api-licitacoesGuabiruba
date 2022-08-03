@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "npx nodemon src/server.ts",
     "build": "tsc",
-    "start": "node dist/src/server.js"
+    "start": "node dist/server.js"
   },
   "repository": {
     "type": "git",
